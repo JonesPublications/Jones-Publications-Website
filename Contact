@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Publication By Brandon Jones | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Contact Publication By Brandon Jones for collaboration, questions, or book-related enquiries."
+  />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="site-title">
+        <span class="brand-main">Publication</span>
+        <span>By Brandon Jones</span>
+        <span class="brand-sub">Dark &amp; Gothic Fiction</span>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html">Books</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-heading">Contact</h1>
+      <p class="section-subtitle">
+        For book enquiries, collaborations, or rights discussions.
+      </p>
+
+      <div class="contact-layout">
+        <!-- Contact form -->
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <label class="form-label" for="name">Name</label>
+            <input class="input" type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="email">Email</label>
+            <input class="input" type="email" id="email" name="email" required />
+            <p class="form-hint">I’ll only use this to reply to your message.</p>
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="reason">Reason for Contact</label>
+            <select class="input" id="reason" name="reason">
+              <option value="">Select an option</option>
+              <option value="general">General Enquiry</option>
+              <option value="book">Question About a Book</option>
+              <option value="collaboration">Collaboration / Interview</option>
+              <option value="rights">Publishing or Rights</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="textarea" id="message" name="message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">
+            Send Message
+          </button>
+
+          <p class="form-hint" id="form-status" aria-live="polite"></p>
+        </form>
+
+        <!-- Side info -->
+        <aside class="contact-side">
+          <p>
+            If you’d like to reach out about my books, collaborations,
+            or events, you can use the form here. I aim to respond as soon as possible.
+          </p>
+
+          <div class="contact-side-card">
+            <strong>Quick Info</strong>
+            <ul>
+              <li>Author: Brandon Jones</li>
+              <li>Imprint: Publication By Brandon Jones</li>
+              <li>
+                Email:
+                <a href="mailto:JonesPublication@outlook.com">
+                  JonesPublication@outlook.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-side-card">
+            <strong>What to include</strong>
+            <ul>
+              <li>Which book or project you’re contacting about.</li>
+              <li>If you’re press or media, any deadlines.</li>
+              <li>For collaboration ideas, a brief overview.</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      &copy; <span>Publication By Brandon Jones</span>.
+      All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
