@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Books by Brandon Jones | Publication By Brandon Jones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Browse books by Brandon Jones – dark and gothic horror, dark romance, supernatural drama, and haunting poetry."
+  />
+  <meta name="author" content="Brandon Jones" />
+  <meta
+    name="keywords"
+    content="Brandon Jones, Unholy Union, gothic horror, dark romance, horror books, dark fiction, The Midnight Covenant, Night Fall, Between Two Worlds, poetry"
+  />
+
+  <!-- Open Graph (for sharing & SEO) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Books by Brandon Jones | Dark & Gothic Fiction" />
+  <meta
+    property="og:description"
+    content="Explore the dark, emotional, and gothic works of Brandon Jones, including Unholy Union, The Midnight Covenant, Night Fall, Between Two Worlds, and more."
+  />
+  <!-- Replace this with your real domain once you host the site -->
+  <meta property="og:url" content="https://your-domain-here.com/books.html" />
+  <meta property="og:site_name" content="Publication By Brandon Jones" />
+
+  <!-- Twitter card (optional but nice) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Books by Brandon Jones" />
+  <meta
+    name="twitter:description"
+    content="Dark & gothic tales by Brandon Jones – horror, dark romance, and emotional fiction."
+  />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Montserrat:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- JSON-LD structured data (helps Google understand your books & you as author) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Brandon Jones",
+    "url": "https://your-domain-here.com",
+    "jobTitle": "Author",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Publication By Brandon Jones"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Books by Brandon Jones",
+    "itemListElement": [
+      {
+        "@type": "Book",
+        "position": 1,
+        "name": "Unholy Union",
+        "author": { "@type": "Person", "name": "Brandon Jones" },
+        "url": "https://www.amazon.com.au/dp/B0FZSZ6LXD"
+      },
+      {
+        "@type": "Book",
+        "position": 2,
+        "name": "The Midnight Covenant",
+        "author": { "@type": "Person", "name": "Brandon Jones" },
+        "url": "https://www.amazon.com.au/dp/B0FFNFSP7L"
+      },
+      {
+        "@type": "Book",
+        "position": 3,
+        "name": "The Weight I Carry, The Words I Leave",
+        "author": { "@type": "Person", "name": "Brandon Jones" },
+        "url": "https://www.amazon.com.au/dp/B0FVG411CN"
+      },
+      {
+        "@type": "Book",
+        "position": 4,
+        "name": "Night Fall",
+        "author": { "@type": "Person", "name": "Brandon Jones" },
+        "url": "https://www.amazon.com.au/dp/B0FSJ2R82M"
+      },
+      {
+        "@type": "Book",
+        "position": 5,
+        "name": "Between Two Worlds",
+        "author": { "@type": "Person", "name": "Brandon Jones" },
+        "url": "https://www.amazon.com.au/dp/B0D3VCXJCP"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <div class="site-title">
+        <span class="brand-main">Publication</span>
+        <span>By Brandon Jones</span>
+        <span class="brand-sub">Dark &amp; Gothic Fiction</span>
+      </div>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="books.html" class="active">Books</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <section class="section">
+      <h1 class="section-heading">My Books</h1>
+      <p class="section-subtitle">
+        Dark &amp; gothic tales that walk the line between love and damnation.
+      </p>
+
+      <div class="book-grid">
+
+        <!-- Unholy Union -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="unholy-union-cover.jpg" alt="Book cover of Unholy Union by Brandon Jones" />
+          </div>
+          <div class="book-tag">Book One · Unholy Union Saga</div>
+          <h2 class="book-title">Unholy Union</h2>
+          <div class="book-genre">Gothic Horror · Dark Romance</div>
+          <p class="book-description">
+            A desperate man summons a succubus and forges a bond that defies heaven, hell,
+            and his own humanity. As their love grows, so does the wrath of those who refuse
+            to let a demon and a mortal rewrite the rules.
+          </p>
+          <div class="book-meta-row">
+            <span>Format: Paperback / Kindle</span>
+            <a href="https://www.amazon.com.au/dp/B0FZSZ6LXD" class="book-link" target="_blank" rel="noopener noreferrer">
+              Buy on Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Book Two: Coming Soon -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="war-of-wings-and-shadows-cover.jpg" alt="Placeholder cover for Unholy Union: The War of Wings and Shadows" />
+          </div>
+          <div class="book-tag">Book Two · Coming Soon</div>
+          <h2 class="book-title">Unholy Union: The War of Wings and Shadows</h2>
+          <div class="book-genre">Epic Dark Fantasy</div>
+          <p class="book-description">
+            The fragile balance between realms breaks as ancient enemies rise.
+            A family bound by forbidden love must stand between heaven's armies,
+            hell’s legions, and something older that hungers in the dark.
+          </p>
+          <div class="book-meta-row">
+            <span>Status: Coming Soon</span>
+            <span class="book-link">Coming Soon</span>
+          </div>
+        </article>
+
+        <!-- The Midnight Covenant -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="the-midnight-covenant-cover.jpg" alt="Book cover of The Midnight Covenant by Brandon Jones" />
+          </div>
+          <div class="book-tag">Short Story Collection</div>
+          <h2 class="book-title">The Midnight Covenant</h2>
+          <div class="book-genre">Horror Anthology</div>
+          <p class="book-description">
+            A collection of horror tales bound by a single thread:
+            every bargain has a cost. Haunted mansions, demonic clowns,
+            hungry gods, and lovers who will cross any line for one more night.
+          </p>
+          <div class="book-meta-row">
+            <span>Format: Paperback / Kindle</span>
+            <a href="https://www.amazon.com.au/dp/B0FFNFSP7L" class="book-link" target="_blank" rel="noopener noreferrer">
+              Buy on Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Poetry: The Weight I Carry -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="the-weight-i-carry-cover.jpg" alt="Book cover of The Weight I Carry, The Words I Leave by Brandon Jones" />
+          </div>
+          <div class="book-tag">Poetry</div>
+          <h2 class="book-title">The Weight I Carry, The Words I Leave</h2>
+          <div class="book-genre">Emotional / Gothic Poetry</div>
+          <p class="book-description">
+            A personal journey through grief, love, healing, and the quiet ghosts
+            we carry. Poems for the nights when the world feels heavy, and you
+            need to know you’re not alone in the dark.
+          </p>
+          <div class="book-meta-row">
+            <span>Available Now</span>
+            <a href="https://www.amazon.com.au/dp/B0FVG411CN" class="book-link" target="_blank" rel="noopener noreferrer">
+              Buy on Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Night Fall -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="night-fall-cover.jpg" alt="Book cover of Night Fall by Brandon Jones" />
+          </div>
+          <div class="book-tag">Drama / Emotional Thriller</div>
+          <h2 class="book-title">Night Fall</h2>
+          <div class="book-genre">Drama · Emotional Fiction</div>
+          <p class="book-description">
+            A deeply emotional journey exploring trauma, healing, love, and the
+            resilience it takes to rebuild a life after devastation.
+          </p>
+          <div class="book-meta-row">
+            <span>Available Now</span>
+            <a href="https://www.amazon.com.au/dp/B0FSJ2R82M" class="book-link" target="_blank" rel="noopener noreferrer">
+              Buy on Amazon
+            </a>
+          </div>
+        </article>
+
+        <!-- Between Two Worlds -->
+        <article class="book-card">
+          <div class="book-cover">
+            <img src="between-two-worlds-cover.jpg" alt="Book cover of Between Two Worlds by Brandon Jones" />
+          </div>
+          <div class="book-tag">Supernatural Drama</div>
+          <h2 class="book-title">Between Two Worlds</h2>
+          <div class="book-genre">Supernatural · Emotional Fiction</div>
+          <p class="book-description">
+            A story about connection, loss, and the unseen forces that guide the
+            living. A haunting exploration of love that stretches beyond life itself.
+          </p>
+          <div class="book-meta-row">
+            <span>Available Now</span>
+            <a href="https://www.amazon.com.au/dp/B0D3VCXJCP" class="book-link" target="_blank" rel="noopener noreferrer">
+              Buy on Amazon
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      &copy; <span>Publication By Brandon Jones</span>.
+      All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
