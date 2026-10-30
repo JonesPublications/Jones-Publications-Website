@@ -533,3 +533,33 @@ body {
   height: auto;
   display: block;
 }
+/* Horror Books Section */
+
+#horror {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #661526;
+}
+
+#horror .section-heading {
+  color: #d9a1ad;
+}
+
+#horror .book-card {
+  background: linear-gradient(
+    145deg,
+    #1b0910,
+    #090508
+  );
+  border: 1px solid #702035;
+}
+
+#horror .book-tag {
+  color: #e57b90;
+}
+
+#horror .book-cover img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
