@@ -563,3 +563,38 @@ body {
   height: auto;
   display: block;
 }
+
+/* Between Two Worlds Series */
+
+#between-two-worlds {
+  display: block;
+  width: 100%;
+  clear: both;
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 2px solid #64345f;
+}
+
+#between-two-worlds .section-heading {
+  color: #d4b3dc;
+}
+
+#between-two-worlds .book-card {
+  background: linear-gradient(
+    145deg,
+    #160c1e,
+    #08050d
+  );
+  border: 1px solid #65416b;
+}
+
+#between-two-worlds .book-tag {
+  color: #d3a2e3;
+}
+
+/* Temporary covers until images are uploaded */
+
+#between-two-worlds .book-cover img {
+  width: 100%;
+  display: block;
+}
